@@ -1,5 +1,16 @@
 /* assets/css/responsive.css */
 
+
+/* Hambúrguer só aparece no mobile */
+.nav-hamburger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-hamburger {
+        display: block;
+    }
+}
 /* ==========================================
    TABLET — até 992px
    ========================================== */
