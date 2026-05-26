@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonas — Python Developer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header id="navbar">
+        <nav class="nav-container">
+            <a href="#" class="nav-logo">Jonas Farias</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="nav-hamburger" id="hamburger">☰</button>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero-section">
+
+        <div class="hero-left">
+            <span class="hero-badge">Desenvolvedor Full Stack</span>
+            <h1 class="hero-title">
+                Olá, eu sou <br> Jonas Farias<br>
+                <span class="hero-accent">Python Developer</span>
+            </h1>
+            <p class="hero-subtitle">
+                Especialista em desenvolvimento web com Python, Django e
+                tecnologias modernas. Criando soluções escaláveis e eficientes
+                para transformar ideias em realidade.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-secondary">Entre em Contato</a>
+            </div>
+            <div class="hero-socials">
+                <a href="#" class="social-link" title="GitHub">GH</a>
+                <a href="#" class="social-link" title="LinkedIn">LI</a>
+                <a href="#" class="social-link" title="Email">@</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="card-hero">
+                <div class="card-hero-img"></div>
+                <div class="card-hero-badge">
+                    <span>&lt;/&gt;</span>
+                    <div>
+                        <small>Tecnologias</small>
+                        <strong>Python • Django</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre-section">
+        <div class="section-wrapper">
+
+            <div class="sobre-grid">
+
+                <div class="sobre-left">
+                    <div class="sobre-avatar"></div>
+                </div>
+
+                <div class="sobre-right">
+                    <div class="section-header section-header--left">
+                        <span class="section-badge">Sobre mim</span>
+                        <h2 class="section-title">Quem sou <span class="hero-accent">eu?</span></h2>
+                    </div>
+
+                    <p class="sobre-text">
+                        Sou Jonas Farias, desenvolvedor Python focado em backend,
+                        infraestrutura e automação. Apaixonado por resolver problemas
+                        reais com código limpo e arquitetura bem pensada.
+                    </p>
+                    <p class="sobre-text">
+                        Trabalho com Python, Django, Docker e Linux no dia a dia,
+                        construindo sistemas escaláveis e seguros. Estou sempre
+                        aprendendo e buscando evoluir como profissional.
+                    </p>
+
+                    <div class="sobre-info">
+                        <div class="sobre-info-item">
+                            <span class="sobre-info-label">Localização</span>
+                            <span class="sobre-info-value">Brasil</span>
+                        </div>
+                        <div class="sobre-info-item">
+                            <span class="sobre-info-label">Foco</span>
+                            <span class="sobre-info-value">Backend & DevOps</span>
+                        </div>
+                        <div class="sobre-info-item">
+                            <span class="sobre-info-label">Disponível</span>
+                            <span class="sobre-info-value" style="color: var(--color-accent);">Sim</span>
+                        </div>
+                    </div>
+
+                    <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="skills-section">
+        <div class="section-wrapper">
+            <div class="section-header">
+                <span class="section-badge">Tecnologias</span>
+                <h2 class="section-title">Minha <span class="hero-accent">Stack</span></h2>
+                <p class="section-subtitle">Tecnologias e ferramentas que utilizo no dia a dia</p>
+            </div>
+            <div class="skills-grid" id="skills-grid">
+                <!-- gerado pelo JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="projetos-section">
+        <div class="section-wrapper"></div>
+        <div class="section-header">
+            <span class="section-badge">Portfólio</span>
+            <h2 class="section-title">Projetos em <span class="hero-accent">Destaque</span></h2>
+            <p class="section-subtitle">
+                Alguns dos projetos que desenvolvi usando Python, Django e tecnologias modernas
+            </p>
+        </div>
+
+
+        <!-- Filtros -->
+        <div class="projetos-filters">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="api">API</button>
+            <button class="filter-btn" data-filter="linux">Linux</button>
+            <button class="filter-btn" data-filter="games">Games</button>
+        </div>
+
+    <!-- Grid de Cards -->
+    <div class="projetos-grid" id="projetos-grid">
+    <!-- cards gerados pelo JS -->
+    </div>
+    </div>
+    </section>
+
+    <!-- INFRA -->
+    <section id="infra" class="infra-section">
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato-section">
+        <div class="section-wrapper">
+
+            <div class="section-header">
+                <span class="section-badge">Contato</span>
+                <h2 class="section-title">Vamos <span class="hero-accent">Conversar?</span></h2>
+                <p class="section-subtitle">
+                    Escolha o canal de sua preferência. Responderei o mais rápido possível.
+                </p>
+            </div>
+
+            <div class="contato-cards">
+
+                <a href="mailto:jhonas.jr@hotmail.com" class="contato-card">
+                    <span class="contato-card-icon">@</span>
+                    <div>
+                        <span class="contato-card-label">Email</span>
+                        <span class="contato-card-value">jhonas.jr@hotmail.com</span>
+                    </div>
+                    <span class="contato-card-arrow">↗</span>
+                </a>
+
+                <a href="https://github.com/JonasFarias93" target="_blank" class="contato-card">
+                    <span class="contato-card-icon">GH</span>
+                    <div>
+                        <span class="contato-card-label">GitHub</span>
+                        <span class="contato-card-value">github.com/JonasFarias93</span>
+                    </div>
+                    <span class="contato-card-arrow">↗</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/jonas-farias/" target="_blank" class="contato-card">
+                    <span class="contato-card-icon">LI</span>
+                    <div>
+                        <span class="contato-card-label">LinkedIn</span>
+                        <span class="contato-card-value">linkedin.com/in/jonas-farias</span>
+                    </div>
+                    <span class="contato-card-arrow">↗</span>
+                </a>
+
+                <a href="https://wa.me/5500000000000" target="_blank" class="contato-card">
+                    <span class="contato-card-icon">WA</span>
+                    <div>
+                        <span class="contato-card-label">WhatsApp</span>
+                        <span class="contato-card-value">Clique para conversar</span>
+                    </div>
+                    <span class="contato-card-arrow">↗</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="section-wrapper">
+            <div class="footer-content">
+
+                <div class="footer-left">
+                    <a href="#" class="nav-logo">DevPortfolio</a>
+                    <p class="footer-desc">
+                        Desenvolvedor Python focado em backend, infraestrutura e automação.
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="hero-socials">
+                        <a href="mailto:jhonas.jr@hotmail.com" class="social-link" title="Email">@</a>
+                        <a href="https://github.com/JonasFarias93" class="social-link" title="GitHub">GH</a>
+                        <a href="https://www.linkedin.com/in/jonas-farias/" class="social-link" title="LinkedIn">LI</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Jonas Farias. Feito com Python, café e Linux.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/skills.js"></script>
+    <script src="assets/js/filters.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/animations.js"></script>
+
+</body>
+</html>

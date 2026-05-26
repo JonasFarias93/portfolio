@@ -1,0 +1,81 @@
+/* assets/css/responsive.css */
+
+/* ==========================================
+   TABLET — até 992px
+   ========================================== */
+@media (max-width: 992px) {
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: var(--space-2xl);
+    }
+
+    .hero-left {
+        align-items: center;
+    }
+
+    .hero-subtitle {
+        max-width: 100%;
+    }
+
+    .sobre-grid,
+    .contato-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid,
+    .projetos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ==========================================
+   MOBILE — até 768px
+   ========================================== */
+@media (max-width: 768px) {
+
+    /* Navbar mobile */
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-secondary);
+        flex-direction: column;
+        padding: var(--space-lg);
+        gap: var(--space-md);
+        border-bottom: 1px solid var(--border-color);
+        z-index: 999;
+    }
+
+    .nav-links.nav-open {
+        display: flex;
+    }
+
+    .nav-hamburger {
+        display: block;
+        background: none;
+        border: none;
+        color: var(--text-main);
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+
+    .skills-grid,
+    .projetos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contato-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: var(--space-md);
+        text-align: center;
+    }
+}
