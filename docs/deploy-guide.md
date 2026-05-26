@@ -61,7 +61,7 @@ sudo ufw status
 ```bash
 # Na VPS
 cd ~
-git clone https://github.com/jonas/portfolio.git
+git clone https://github.com/JonasFarias93/portifolio.git
 cd portfolio
 ```
 
