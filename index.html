@@ -3,6 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content="Jonas Farias — Python Developer especialista em backend, Django, Docker e Linux. Baseado em São Paulo, BR.">
+    <meta name="keywords" content="Python, Django, Docker, Linux, Backend, DevOps, São Paulo">
+    <meta name="author" content="Jonas Farias">
+
+    <!-- Open Graph — aparece quando alguém compartilha o link -->
+    <meta property="og:title" content="Jonas Farias — Python Developer">
+    <meta property="og:description" content="Especialista em backend, Django, Docker e Linux. Criando soluções escaláveis e eficientes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jonasgfilho.com.br">
+    <meta property="og:image" content="https://jonasgfilho.com.br/assets/img/profile.webp">
+
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
     <title>Jonas — Python Developer</title>
 
     <!-- CSS -->
@@ -10,6 +24,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +43,7 @@
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-            <button class="nav-hamburger" id="hamburger">☰</button>
+            <button class="nav-hamburger" id="hamburger"> <i class="fa-solid fa-bars"></i> </button>
         </nav>
     </header>
 
@@ -50,17 +66,25 @@
                 <a href="#contato" class="btn btn-secondary">Entre em Contato</a>
             </div>
             <div class="hero-socials">
-                <a href="#" class="social-link" title="GitHub">GH</a>
-                <a href="#" class="social-link" title="LinkedIn">LI</a>
-                <a href="#" class="social-link" title="Email">@</a>
+                <a href="https://github.com/JonasFarias93" target="_blank" class="social-link" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/jonas-farias" target="_blank" class="social-link" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:jhonas.jr@hotmail.com" class="social-link" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
             </div>
         </div>
 
         <div class="hero-right">
             <div class="card-hero">
-                <div class="card-hero-img"></div>
+                <img src="assets/img/profile.webp" 
+                    alt="Jonas Farias" 
+                    class="card-hero-img">
                 <div class="card-hero-badge">
-                    <span>&lt;/&gt;</span>
+                    <i class="fa-solid fa-code"></i>
                     <div>
                         <small>Tecnologias</small>
                         <strong>Python • Django</strong>
@@ -78,7 +102,9 @@
             <div class="sobre-grid">
 
                 <div class="sobre-left">
-                    <div class="sobre-avatar"></div>
+                    <img src="assets/img/profile.webp" 
+                        alt="Jonas Farias" 
+                        class="sobre-avatar">
                 </div>
 
                 <div class="sobre-right">
@@ -184,39 +210,47 @@
             <div class="contato-cards">
 
                 <a href="mailto:jhonas.jr@hotmail.com" class="contato-card">
-                    <span class="contato-card-icon">@</span>
+                    <span class="contato-card-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
                     <div>
                         <span class="contato-card-label">Email</span>
                         <span class="contato-card-value">jhonas.jr@hotmail.com</span>
                     </div>
-                    <span class="contato-card-arrow">↗</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square contato-card-arrow"></i>
                 </a>
 
                 <a href="https://github.com/JonasFarias93" target="_blank" class="contato-card">
-                    <span class="contato-card-icon">GH</span>
+                        <span class="contato-card-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </span>
                     <div>
                         <span class="contato-card-label">GitHub</span>
-                        <span class="contato-card-value">github.com/JonasFarias93</span>
+                        <span class="contato-card-value">JonasFarias93</span>
                     </div>
-                    <span class="contato-card-arrow">↗</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square contato-card-arrow"></i>
                 </a>
 
                 <a href="https://www.linkedin.com/in/jonas-farias/" target="_blank" class="contato-card">
-                    <span class="contato-card-icon">LI</span>
+                    <span class="contato-card-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </span>
                     <div>
                         <span class="contato-card-label">LinkedIn</span>
-                        <span class="contato-card-value">linkedin.com/in/jonas-farias</span>
+                        <span class="contato-card-value">Jonas Farias</span>
                     </div>
-                    <span class="contato-card-arrow">↗</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square contato-card-arrow"></i>
                 </a>
 
-                <a href="https://wa.me/5500000000000" target="_blank" class="contato-card">
-                    <span class="contato-card-icon">WA</span>
+                <a href="https://wa.me/5513997721666" target="_blank" class="contato-card">
+                    <span class="contato-card-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </span>
                     <div>
                         <span class="contato-card-label">WhatsApp</span>
                         <span class="contato-card-value">Clique para conversar</span>
                     </div>
-                    <span class="contato-card-arrow">↗</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square contato-card-arrow"></i>
                 </a>
 
             </div>

@@ -218,10 +218,10 @@ body {
     gap: var(--space-sm);
 }
 
-.card-hero-badge span {
+.card-hero-badge i {
     color: var(--color-accent);
-    font-weight: var(--weight-bold);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    flex-shrink: 0;
 }
 
 .card-hero-badge small {
@@ -233,6 +233,15 @@ body {
 .card-hero-badge strong {
     color: var(--text-main);
     font-size: 0.9rem;
+}
+
+
+/* Imagens de perfil */
+.sobre-avatar,
+.card-hero-img {
+    object-fit: cover;
+    object-position: center top;
+    border: 2px solid var(--color-accent);
 }
 
 

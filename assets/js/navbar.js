@@ -5,7 +5,9 @@ const navLinks = document.querySelector(".nav-links");
 
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("nav-open");
-    hamburger.textContent = navLinks.classList.contains("nav-open") ? "✕" : "☰";
+    const icon = hamburger.querySelector("i");
+    icon.classList.toggle("fa-bars");
+    icon.classList.toggle("fa-xmark");
 });
 
 // Fecha o menu ao clicar em um link
