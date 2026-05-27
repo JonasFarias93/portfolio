@@ -4,4 +4,7 @@ services:
     container_name: portfolio
     ports:
       - "80:80"
+      - "443:443"
+    volumes:
+      - /etc/ssl/cloudflare:/etc/ssl/cloudflare:ro
     restart: unless-stopped
