@@ -2,12 +2,29 @@
 
 const projects = [
     {
-        title: "E-commerce Django",
-        image: "",
-        desc: "Plataforma completa de e-commerce com Django REST Framework, processamento de pagamentos e painel administrativo avançado.",
-        tags: ["Django", "Python", "PostgreSQL", "React"],
-        category: ["web", "backend"],
-        github: "#",
+        title: "Expansão360",
+        image: "assets/img/projects/expansao360.png",
+        desc: "Plataforma de gestão operacional e expansão física com foco em governança, rastreabilidade, histórico imutável e execução padronizada de campo. O sistema separa Cadastro da Execução Operacional, garantindo controle total do ciclo de vida operacional.",
+        tags: [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Docker",
+        "Pytest",
+        "Jest",
+        "JavaScript",
+        "Linux",
+        "REST API",
+        "TDD"
+    ],
+            category: [
+        "web",
+        "backend",
+        "frontend",
+        "api",
+        "linux"
+    ],
+        github: "https://github.com/JonasFarias93/expansao360",
         demo: null,
     },
 
@@ -18,7 +35,7 @@ const projects = [
         tags: ["Linux", "Bash", "Docker", "SSH", "WSL2"],
         category: ["devops", "backend", "linux"],
         github: "https://github.com/JonasFarias93/central-lab",
-        demo: "#"
+        demo: "status.jonasgfilho.com.br"
     },
 
 ];
